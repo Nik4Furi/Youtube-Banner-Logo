@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+}
+.container {
+  background-color: antiquewhite;
+  height: 45vh;
+  position: relative;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("/img/nikfuri.jpeg") center center/cover no-repeat;
+}
+
+.img{
+  position: absolute;
+  z-index: 3;
+  width: 8%;
+  height: 48%;
+  top: 0;
+  left: 21%;
+  
+}
+
+#middle{
+  left: 37%;
+}
+#right{
+  left: 53%;
+}
+
+.banner{
+  position: absolute;
+  top: 0;
+  left: -1%;
+  width: 29%;
+  height: 100%;
+  background-color: #a745ad;
+  border-top-right-radius: 45%;
+  border-bottom-right-radius: 45%;
+  box-shadow: 2px 18px 86px pink;
+}
+.banner2{
+  position: absolute;
+  top: 0;
+  right: -1%;
+  width: 29%;
+  height: 100%;
+  background-color: #a745ad;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+  box-shadow: 2px 18px 86px pink;
+}
+.h-fourth{
+  color: #490949;
+  font-size: 80px;
+  margin: 4px 5px;
+  text-shadow: 4px 6px 15px pink;
+}
+
+.primary {
+  position: absolute;
+  top: 41%;
+  left: 28%;
+  color: #490949;
+  font-size: 80px;
+  margin: 4px 5px;
+  text-shadow: 4px 6px 15px pink;
+}
